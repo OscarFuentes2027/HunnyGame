@@ -1,0 +1,41 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Establece la altura al 80% del viewport */
+  }
+  
+  .square {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10%;
+    font-family: monospace;
+    width: 400px; /* Define el ancho del cuadrado */
+    height: 400px; /* Define la altura del cuadrado */
+    display: flex;
+    flex-direction: column; /* Alinea la imagen y el texto verticalmente */
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease; /* Transición suave */
+  }
+  
+  .square:hover {
+    background-color: #555; /* Color cuando se pasa el cursor por encima */
+  }
+  
+  .square-image {
+    margin-top: 20px;
+    max-width: 85%;
+    max-height: 85%;
+    border-radius: 10%;
+    object-fit: cover; /* Ajusta la imagen para cubrir el cuadrado */
+  }
+  
+  .text {
+    margin-top: 10px; /* Añade un poco de espacio entre la imagen y el texto */
+    text-align: center;
+  }
+  
