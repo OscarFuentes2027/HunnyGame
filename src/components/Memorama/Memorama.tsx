@@ -116,11 +116,6 @@ const Memorama: React.FC = () => {
         setTimeout(() => {
           setCartasVolteadas([]);
           setIsChecking(false);
-          if (tiempoRestante > 5) {
-            setTiempoRestante((prev) => prev - 5);
-          } else {
-            setTiempoRestante(0);
-          }
         }, 1000); // Mantiene la segunda carta levantada
       }
     }
