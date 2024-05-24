@@ -1,13 +1,12 @@
 // En el componente Cartel.tsx
-
 import React from 'react';
-import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
+import { Link } from 'react-router-dom';
 import './Cartel.css';
 
 interface CartelProps {
   title: string;
   image: string;
-  to: string; // Nuevo prop para la URL de destino
+  to: string;
 }
 
 const Cartel: React.FC<CartelProps> = ({ title, image, to }) => {
@@ -22,4 +21,3 @@ const Cartel: React.FC<CartelProps> = ({ title, image, to }) => {
 };
 
 export default Cartel;
-
